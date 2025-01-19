@@ -1,0 +1,170 @@
+import os
+import discord
+from discord.ext import commands, tasks
+from dotenv import load_dotenv
+from chatterbot import ChatBot
+from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
+import yaml
+import asyncio
+from dadosite.reddit import collect_reddit_data
+from dadosite.x import collect_twitter_data
+from dadosite.tdc import process_message
+from cmds.pc import allowed_channels  # Importação da lógica de canais permitidos
+from cmds.rc import removed_channels  # Importação de canais removidos
+from respdb import chatbot  # Importando o chatbot do respdb.py para usar o mesmo bot com o banco de dados
+
+# Carregar variáveis de ambiente
+load_dotenv()
+
+# Configuração de intents para o Discord
+intents = discord.Intents.default()
+intents.message_content = True
+client = commands.Bot(command_prefix="/", intents=intents)
+
+# Definir caminhos absolutos para evitar problemas de localização
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATAPA_PATH = os.path.join(BASE_DIR, 'datapa')
+
+# Garantir que a pasta base exista
+os.makedirs(BASE_DIR, exist_ok=True)
+
+# Função para carregar e treinar com dados YML
+def load_and_train_from_yml():
+    if not os.path.exists(DATAPA_PATH):
+        print(f"Pasta '{DATAPA_PATH}' não encontrada.")
+        return
+
+    yml_files = [f for f in os.listdir(DATAPA_PATH) if f.endswith('.yml')]
+    for file in yml_files:
+        file_path = os.path.join(DATAPA_PATH, file)
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f)
+            if 'conversations' in data:
+                for conversation in data['conversations']:
+                    chatbot.train(conversation)
+            print(f"Treinamento concluído com {file}.")
+        except Exception as e:
+            print(f"Erro ao processar {file}: {e}")
+
+# Coletar dados de Reddit em tempo real
+async def collect_reddit_data_in_real_time():
+    while True:
+        new_data = collect_reddit_data("all")  # Ou outro subreddit
+        if new_data:
+            for conversation in new_data:
+                chatbot.train([conversation])  # Garante que a conversa seja uma lista
+        await asyncio.sleep(60)  # Coleta a cada 60 segundos
+
+# Coletar dados de Twitter (X) em tempo real
+async def collect_twitter_data_in_real_time():
+    while True:
+        new_data = collect_twitter_data("#chatbot")  # Ou outra hashtag
+        if new_data:
+            for conversation in new_data:
+                chatbot.train([conversation])  # Garante que a conversa seja uma lista
+        await asyncio.sleep(60)  # Coleta a cada 60 segundos
+
+# Comando para adicionar dados ao treinamento (Reddit ou Twitter)
+@client.command()
+async def add_data(ctx, source: str, *args):
+    conversations = []
+
+    if source.lower() == "reddit":
+        subreddit_name = args[0] if args else "all"
+        conversations = collect_reddit_data(subreddit_name)
+    elif source.lower() == "twitter":
+        hashtag = args[0] if args else "#chatbot"
+        conversations = collect_twitter_data(hashtag)
+    else:
+        await ctx.send("Fonte desconhecida. Use 'reddit' ou 'twitter'.")
+        return
+
+    if conversations:
+        for conversation in conversations:
+            chatbot.train([conversation])  # Garante que a conversa seja uma lista
+        await ctx.send(f"Dados de {source} adicionados ao treinamento com sucesso.")
+    else:
+        await ctx.send(f"Nenhum dado encontrado para {source}.")
+
+# Comando para adicionar canais permitidos
+@client.command()
+async def pcanal(ctx):
+    guild_id = ctx.guild.id
+    channel_id = ctx.channel.id
+
+    if guild_id not in allowed_channels:
+        allowed_channels[guild_id] = []
+
+    if channel_id not in allowed_channels[guild_id]:
+        allowed_channels[guild_id].append(channel_id)
+
+        embed = discord.Embed(
+            title="Canal Adicionado",
+            description=f"O canal {ctx.channel.mention} foi adicionado à lista de canais permitidos!",
+            color=discord.Color.green()
+        )
+    else:
+        embed = discord.Embed(
+            title="Canal Já Adicionado",
+            description=f"O canal {ctx.channel.mention} já está na lista de canais permitidos.",
+            color=discord.Color.orange()
+        )
+
+    await ctx.send(embed=embed)
+
+# Comando para remover canais permitidos
+@client.command()
+async def rcanal(ctx):
+    guild_id = ctx.guild.id
+    channel_id = ctx.channel.id
+
+    if guild_id in allowed_channels and channel_id in allowed_channels[guild_id]:
+        allowed_channels[guild_id].remove(channel_id)
+
+        embed = discord.Embed(
+            title="Canal Removido",
+            description=f"O canal {ctx.channel.mention} foi removido da lista de canais permitidos!",
+            color=discord.Color.red()
+        )
+    else:
+        embed = discord.Embed(
+            title="Canal Não Encontrado",
+            description=f"O canal {ctx.channel.mention} não está na lista de canais permitidos.",
+            color=discord.Color.orange()
+        )
+
+    await ctx.send(embed=embed)
+
+# Evento para processar mensagens
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return
+
+    user_input = message.content
+
+    # Processar mensagem do usuário e treinar chatbot em tempo real
+    response = process_message(message.author.name, user_input)
+
+    # Gerar resposta do chatbot
+    response = chatbot.get_response(user_input)
+
+    # Salvar a interação no banco de dados
+    process_message('Bot', str(response))
+
+    # Enviar resposta no Discord
+    await message.channel.send(str(response))
+
+# Evento de inicialização do bot
+@client.event
+async def on_ready():
+    print(f"Bot {client.user} conectado ao Discord!")
+    load_and_train_from_yml()
+
+    # Iniciar coleta de dados em tempo real
+    client.loop.create_task(collect_reddit_data_in_real_time())
+    client.loop.create_task(collect_twitter_data_in_real_time())
+
+# Inicializar o bot
+client.run(os.getenv("DISCORD_TOKEN"))
