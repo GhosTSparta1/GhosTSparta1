@@ -10,25 +10,15 @@
             padding: 0;
             overflow: hidden;
         }
-        #dosbox {
+        iframe {
+            display: block;
             width: 100vw;
             height: 100vh;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <div id="dosbox"></div>
-    <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
-    <script type="text/javascript">
-        var dosbox = new Dosbox({
-            id: "dosbox",
-            onload: function (dosbox) {
-                dosbox.run("https://js-dos.com/cdn/doom.zip", "./DOOM.EXE");
-            },
-            onrun: function (dosbox, app) {
-                console.log("App '" + app + "' is running");
-            }
-        });
-    </script>
+    <iframe src="https://js-dos.com/games/doom.exe.html" allowfullscreen></iframe>
 </body>
 </html>
