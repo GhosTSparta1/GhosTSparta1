@@ -35,11 +35,9 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GhosTSparta1/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-snake.svg" />
   <img alt="Animação da cobrinha" src="https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-snake.svg" />
 </picture>
-  
-  ![Snake animation](https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-contribution-grid-snake.svg)
 
 </div>
