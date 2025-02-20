@@ -33,6 +33,12 @@
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
   </a> 
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GhosTSparta1/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-snake.svg" />
+  <img alt="Animação da cobrinha" src="https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-snake.svg" />
+</picture>
   
   ![Snake animation](https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-contribution-grid-snake.svg)
 
