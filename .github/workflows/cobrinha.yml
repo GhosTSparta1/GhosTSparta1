@@ -1,21 +1,28 @@
-name: Generate Snake Contribution Grid
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Roda a cada 12 horas
-  workflow_dispatch:  # Permite rodar manualmente
+    - cron: "0 */12 * * *"  # Executa a cada 12 horas
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@master
-        with:
-          github_user_name: GhosTSparta1
-          outputs: dist/github-contribution-grid-snake.svg
+      - name: Checar código
+        uses: actions/checkout@v2
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+      - name: Gerar animação da cobrinha
+        uses: Platane/snk@v3
         with:
-          branch: output  # Publica na branch "output"
-          folder: dist
+          github_user_name: seu_nome_de_usuario  # Substitua pelo seu nome de usuário
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Publicar no GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
