@@ -34,6 +34,6 @@
   </a> 
 </div>
   
-  ![Snake animation](https://github.com/GhosTSparta1/GhosTSparta1/blob/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-contribution-grid-snake.svg)
 
 </div>
