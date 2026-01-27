@@ -18,15 +18,15 @@
   ### Redes sociais
 
 <div> 
-  <a href="https://youtube.com/@guitheus_n?si=4fiMcviHc3hzjac4" target="_blank">
+  <a href="https://www.youtube.com/@justadev_1nic" target="_blank">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
   </a>
   
-  <a href="https://www.instagram.com/ghostsparta_1nico?igsh=MThoaXYwczg0czVveg==" target="_blank">
+  <a href="https://www.instagram.com/justadev__/" target="_blank">
     <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
   
-  <a href="https://discord.gg/SCN7E4xdXU" target="_blank">
+  <a href="https://discord.com/users/1291919614585995325" target="_blank">
     <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
   </a> 
   
