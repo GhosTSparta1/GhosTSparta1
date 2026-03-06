@@ -1,4 +1,4 @@
-## Bem-vindo(a)s ao meu perfil!
+## Bem-vindo ao meu perfil
 
  <div>
    <a href="https://github.com/GhosTSparta1">
