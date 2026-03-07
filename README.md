@@ -77,7 +77,7 @@
 ---
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d35781de-b1d0-4264-91e1-093cec2c4826" width="700">
+  <img src="https://github.com/user-attachments/assets/d35781de-b1d0-4264-91e1-093cec2c4826" width="900">
 </div>
 
 ---
