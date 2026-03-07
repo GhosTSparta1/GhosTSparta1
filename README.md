@@ -77,7 +77,7 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/main/assets/image1.jpg" width="180">
+  <img src="https://github.com/user-attachments/assets/d35781de-b1d0-4264-91e1-093cec2c4826" width="180">
 </div>
 
 ---
