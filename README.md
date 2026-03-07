@@ -76,6 +76,12 @@
 
 ---
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/main/.github/image1.jpg" width="180">
+</div>
+
+---
+
 ## Social
 
 <div>
