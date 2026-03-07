@@ -67,9 +67,7 @@
 ## Discord
 
 <div align="center">
-  <a href="https://discord.com/users/1291919614585995325" target="_blank">
-    <img src="https://lanyard.cnrad.dev/api/1291919614585995325?showDisplayName=true&idleMessage=Probably+chilling...&borderRadius=30px" alt="Discord Presence">
-  </a>
+  <a href="https://discord.com/users/1291919614585995325"><img src="https://lanyard.cnrad.dev/api/1291919614585995325?showDisplayName=true&hideActivity=true" /></a>
 </div>
 
 ---
