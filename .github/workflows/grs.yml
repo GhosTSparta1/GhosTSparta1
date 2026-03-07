@@ -11,18 +11,55 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Create profile folder
-        run: mkdir -p profile
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
 
-      - name: Download stats card
-        run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&include_all_commits=true" \
-            -o profile/stats.svg
+      - name: Clone github-readme-stats
+        run: git clone --depth=1 https://github.com/anuraghazra/github-readme-stats.git /tmp/grs
 
-      - name: Download top languages card
+      - name: Install dependencies
+        run: cd /tmp/grs && npm install
+
+      - name: Generate SVGs
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=tokyonight" \
-            -o profile/top-langs.svg
+          mkdir -p profile
+          cd /tmp/grs
+
+          node -e "
+            const { renderStatsCard } = require('./src/cards/stats-card.js');
+            const { fetchStats } = require('./src/fetchers/stats-fetcher.js');
+            const fs = require('fs');
+
+            fetchStats('${{ github.repository_owner }}').then(data => {
+              const svg = renderStatsCard(data, {
+                show_icons: true,
+                theme: 'tokyonight',
+                include_all_commits: true
+              });
+              fs.writeFileSync('${{ github.workspace }}/profile/stats.svg', svg);
+              console.log('stats.svg gerado');
+            }).catch(e => { console.error(e); process.exit(1); });
+          "
+
+          node -e "
+            const { renderTopLanguages } = require('./src/cards/top-languages-card.js');
+            const { fetchTopLanguages } = require('./src/fetchers/top-languages-fetcher.js');
+            const fs = require('fs');
+
+            fetchTopLanguages('${{ github.repository_owner }}').then(data => {
+              const svg = renderTopLanguages(data, {
+                layout: 'compact',
+                langs_count: 6,
+                theme: 'tokyonight'
+              });
+              fs.writeFileSync('${{ github.workspace }}/profile/top-langs.svg', svg);
+              console.log('top-langs.svg gerado');
+            }).catch(e => { console.error(e); process.exit(1); });
+          "
 
       - name: Commit cards
         run: |
