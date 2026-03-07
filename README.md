@@ -2,8 +2,8 @@
 
 <div>
   <a href="https://github.com/basicallykairos">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=basicallykairos&show_icons=true&theme=tokyonight"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=basicallykairos&layout=compact&langs_count=6&theme=tokyonight"/>
+    <img height="180em" src="./profile/stats.svg"/>
+    <img height="180em" src="./profile/top-langs.svg"/>
   </a>
 </div>
 
