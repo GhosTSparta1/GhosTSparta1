@@ -23,8 +23,8 @@
     <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/arch-linux.png" alt="Arch Linux" width="50" height="50">
   </a>
   &nbsp;
-  <a href="https://neovim.io/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=neovim" alt="Neovim" width="50" height="50">
+  <a href="https://openai.com" target="_blank">
+    <img src="https://skillicons.dev/icons?i=ai" alt="LLM / AI" width="50" height="50">
   </a>
   &nbsp;
   <a href="https://linux.org/" target="_blank">
@@ -55,6 +55,10 @@
   &nbsp;
   <a href="https://www.lua.org" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/lua/lua-original.svg" alt="Lua" width="50" height="50">
+  </a>
+  &nbsp;
+  <a href="https://www.gnu.org/software/bash/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=bash" alt="Bash" width="50" height="50">
   </a>
   &nbsp;
   <a href="https://code.visualstudio.com/" target="_blank">
