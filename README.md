@@ -1,21 +1,33 @@
 ## Bem-vindo ao meu perfil
 
- <div>
-   <a href="https://github.com/GhosTSparta1">
-   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GhosTSparta1&show_icons=true&theme=tokyonight
-"/>
-   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhosTSparta1&layout=compact&langs_count=6&theme=tokyonight"/>
+<div>
+  <a href="https://github.com/basicallykairos">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=basicallykairos&show_icons=true&theme=tokyonight"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=basicallykairos&layout=compact&langs_count=6&theme=tokyonight"/>
+  </a>
+</div>
 
-</div>
 <div style="display: inline_block"><br>
-  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <a href="https://www.javascript.com" target="_blank">
+    <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+    <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  </a>
+  <a href="https://www.python.org" target="_blank">
+    <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  </a>
+  <a href="https://www.lua.org" target="_blank">
+    <img align="center" alt="Lua" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/lua/lua-original.svg">
+  </a>
 </div>
- 
- <br>
- 
-  ### Redes sociais
+
+<br>
+
+### Redes sociais
 
 <div> 
   <a href="https://www.youtube.com/@justadev_1nic" target="_blank">
@@ -36,9 +48,7 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-snake.svg" />
-  <img alt="Animação da cobrinha" src="https://raw.githubusercontent.com/GhosTSparta1/GhosTSparta1/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
+  <img alt="Animação da cobrinha" src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
 </picture>
-
-</div>
