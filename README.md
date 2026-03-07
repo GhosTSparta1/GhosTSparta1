@@ -8,7 +8,7 @@
 
 ## About Me
 
-> I love programming. It's my hobby! Born in Brazil 🇧🇷 My current timezone: Brasília Time (BRT).
+> I love programming — it's my hobby! Born in Brazil 🇧🇷 and living on Brasília Time (BRT).
 
 - 🐧 Linux enthusiast
 - 💻 Passionate about programming
@@ -29,6 +29,10 @@
   &nbsp;
   <a href="https://linux.org/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="50" height="50">
+  </a>
+  &nbsp;
+  <a href="https://en.wikipedia.org/wiki/Automation" target="_blank">
+    <img src="https://www.svgrepo.com/show/140716/robotic-arm.svg" alt="Automation" width="50" height="50">
   </a>
 </div>
 
@@ -72,6 +76,12 @@
 
 <div align="center">
   <a href="https://discord.com/users/1291919614585995325"><img src="https://lanyard.cnrad.dev/api/1291919614585995325?showDisplayName=true&hideActivity=true" /></a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d35781de-b1d0-4264-91e1-093cec2c4826" width="400">
 </div>
 
 ---
