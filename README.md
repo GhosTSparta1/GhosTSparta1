@@ -38,7 +38,7 @@
 
 <div align="center">
   <a href="https://www.javascript.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript" width="50" height="50">
+    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="50" height="50">
   </a>
   &nbsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
