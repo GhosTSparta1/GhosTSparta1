@@ -8,7 +8,9 @@
 
 ## About Me
 
-> I love programming — it's my hobby! Born in Brazil 🇧🇷 and living on Brasília Time (BRT).
+> I enjoy building things with code and exploring how software can automate the world
+Born in Brazil 🇧🇷
+My current timezone: Brasília Time (BRT)
 
 - 🐧 Linux enthusiast
 - 💻 Passionate about programming
