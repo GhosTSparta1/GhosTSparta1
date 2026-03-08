@@ -8,7 +8,7 @@
 
 ## About Me
 
-> I enjoy building things with code and exploring how software can automate the world
+> I enjoy building things with code and exploring how software can automate the world.
 
 - 🇧🇷 Born in Brazil
 - 🕒 Current timezone: Brasília Time (BRT)
