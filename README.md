@@ -6,7 +6,7 @@
 
 ---
 
-**## About Me
+## About Me
 
 > I enjoy building things with code and exploring how software can automate the world
 
@@ -17,7 +17,6 @@
 - 📖 Love anime, manga and books
 
 ---
-**
 
 ## Interests
 
