@@ -43,7 +43,7 @@
 ## Languages & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,python,lua,bash,vscode&perline=4" />
+  <img src="https://skillicons.dev/icons?i=js,html,css,python,lua,bash,vscode,github&perline=4" />
 </div>
 
 ---
