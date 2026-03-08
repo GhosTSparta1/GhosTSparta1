@@ -21,7 +21,7 @@
 ## Interests
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=arch,linux,ai&perline=3" />
+  <img src="https://skillicons.dev/icons?i=arch,linux,ai,github&perline=3" />
 </div>
 
 ---
@@ -29,7 +29,7 @@
 ## Languages & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,python,lua,bash,vscode,github&perline=4" />
+  <img src="https://skillicons.dev/icons?i=js,html,css,python,lua,bash,vscode,git&perline=4" />
 </div>
 
 ---
