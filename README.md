@@ -6,9 +6,20 @@
 
 ---
 
+<div align="center">
+
+![](https://komarev.com/ghpvc/?username=basicallykairos&label=Profile%20views&color=0e75b6&style=flat)
+![](https://img.shields.io/github/followers/basicallykairos?label=Followers&color=0e75b6&style=flat)
+![](https://img.shields.io/badge/dynamic/json?label=Repositories&query=public_repos&url=https://api.github.com/users/basicallykairos&color=0e75b6&style=flat)
+![](https://img.shields.io/github/stars/basicallykairos?label=Stars&color=0e75b6&style=flat)
+
+</div>
+
+---
+
 ## About Me
 
-> I enjoy building things with code and exploring how software can automate the world.
+> Exploring how software can automate the world.
 
 - 🇧🇷 Born in Brazil
 - 🐧 Linux enthusiast
@@ -18,18 +29,18 @@
 
 ---
 
-## Interests
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=arch,linux,ai,github,pytorch,discord,redhat,kali&perline=4" />
-</div>
-
----
-
 ## Languages & Tools
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=js,html,css,python,lua,bash,vscode,git&perline=4" />
+</div>
+
+---
+
+## Interests
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=arch,linux,ai,github,pytorch,discord,redhat,kali&perline=4" />
 </div>
 
 ---
@@ -50,6 +61,14 @@
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
+  <img alt="Animação da cobrinha" src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
+</picture>
+
+---
+
 ## Social
 
 <div align="center">
@@ -63,18 +82,3 @@
     <img src="https://skillicons.dev/icons?i=gmail&perline=1">
   </a>
 </div>
-
----
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
-  <img alt="Animação da cobrinha" src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
-</picture>
-
----
-
-![](https://komarev.com/ghpvc/?username=basicallykairos&label=Profile%20views&color=0e75b6&style=flat)
-![](https://img.shields.io/github/followers/basicallykairos?label=Followers&color=0e75b6&style=flat)
-![](https://img.shields.io/badge/dynamic/json?label=Repositories&query=public_repos&url=https://api.github.com/users/basicallykairos&color=0e75b6&style=flat)
-![](https://img.shields.io/github/stars/basicallykairos?label=Stars&color=0e75b6&style=flat)
