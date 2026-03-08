@@ -21,7 +21,7 @@
 ## Interests
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=arch,linux,ai,github,pytorch,tensorflow,redhat,kali&perline=3" />
+  <img src="https://skillicons.dev/icons?i=arch,linux,ai,github,pytorch,discord,redhat,kali&perline=4" />
 </div>
 
 ---
