@@ -36,14 +36,6 @@
 
 ---
 
-## Interests
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=arch,linux,ai,github,pytorch,discord,redhat,kali&perline=4" />
-</div>
-
----
-
 ## Stats
 
 <div align="center">
