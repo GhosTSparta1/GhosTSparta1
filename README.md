@@ -33,7 +33,7 @@
     <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="50" height="50">
   </a>
   &nbsp;
-  <a href="https://openclaw.ai/" target="_blank">
+  <a href="https://en.wikipedia.org/wiki/Automation" target="_blank">
     <img src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/main/assets/automation.svg" alt="Automation" width="50" height="50">
   </a>
 </div>
@@ -74,6 +74,15 @@
 
 ---
 
+## Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=basicallykairos&show_icons=true&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=basicallykairos&layout=compact&langs_count=6&theme=tokyonight"/>
+</div>
+
+---
+
 ## Discord
 
 <div align="center">
@@ -97,6 +106,12 @@
   <a href="mailto:guilher39982@gmail.com" target="_blank" style="text-decoration:none">
     <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Gmail.svg" width="40" height="40">
   </a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbasicallykairos&count_bg=%235865F2&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=visitors&edge_flat=false"/>
 </div>
 
 ---
