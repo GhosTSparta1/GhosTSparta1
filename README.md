@@ -31,7 +31,7 @@
     <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="50" height="50">
   </a>
   &nbsp;
-  <a href="https://en.wikipedia.org/wiki/Automation" target="_blank">
+  <a href="https://openclaw.ai/" target="_blank">
     <img src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/main/assets/automation.svg" alt="Automation" width="50" height="50">
   </a>
 </div>
@@ -76,12 +76,6 @@
 
 <div align="center">
   <a href="https://discord.com/users/1291919614585995325"><img src="https://lanyard.cnrad.dev/api/1291919614585995325?showDisplayName=true&hideActivity=true" /></a>
-</div>
-
----
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/d35781de-b1d0-4264-91e1-093cec2c4826" width="400">
 </div>
 
 ---
