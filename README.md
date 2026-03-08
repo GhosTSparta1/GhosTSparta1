@@ -43,33 +43,7 @@
 ## Languages & Tools
 
 <div align="center">
-  <a href="https://www.javascript.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="50" height="50">
-  </a>
-  &nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="50" height="50">
-  </a>
-  &nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="50" height="50">
-  </a>
-  &nbsp;
-  <a href="https://www.python.org" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/python.png" alt="Python" width="50" height="50">
-  </a>
-  &nbsp;
-  <a href="https://www.lua.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/lua/lua-original.svg" alt="Lua" width="50" height="50">
-  </a>
-  &nbsp;
-  <a href="https://www.gnu.org/software/bash/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=bash" alt="Bash" width="50" height="50">
-  </a>
-  &nbsp;
-  <a href="https://code.visualstudio.com/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/code.png" alt="VS Code" width="50" height="50">
-  </a>
+  <img src="https://skillicons.dev/icons?i=js,html,css,python,lua,bash,vscode&perline=4" />
 </div>
 
 ---
