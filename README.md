@@ -9,9 +9,7 @@
 ## About Me
 
 > I enjoy building things with code and exploring how software can automate the world
-
 > Born in Brazil 🇧🇷
-
 > My current timezone: Brasília Time (BRT)
 
 - 🐧 Linux enthusiast
