@@ -52,18 +52,15 @@
 
 ## Social
 
-<div>
-  <a href="https://www.youtube.com/@justadev_1nic" target="_blank" style="text-decoration:none">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Youtube.svg" width="40" height="40">
-  </a>
+<div align="center">
   <a href="https://www.instagram.com/justadev__/" target="_blank" style="text-decoration:none">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Instagram.svg" width="40" height="40">
+    <img src="https://skillicons.dev/icons?i=instagram&perline=1">
   </a>
   <a href="https://discord.com/users/1291919614585995325" target="_blank" style="text-decoration:none">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Discord.svg" width="40" height="40">
+    <img src="https://skillicons.dev/icons?i=discord&perline=1" width="40" height="40">
   </a>
   <a href="mailto:guilher39982@gmail.com" target="_blank" style="text-decoration:none">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Gmail.svg" width="40" height="40">
+    <img src="https://skillicons.dev/icons?i=gmail&perline=1" width="40" height="40">
   </a>
 </div>
 
