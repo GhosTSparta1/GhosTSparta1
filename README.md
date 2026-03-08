@@ -4,8 +4,6 @@
   </a>
 </div>
 
----
-
 <div align="center">
 
 ![](https://komarev.com/ghpvc/?username=basicallykairos&label=Profile%20views&color=0e75b6&style=flat)
