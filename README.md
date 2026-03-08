@@ -12,13 +12,14 @@
 
 > I enjoy building things with code and exploring how software can automate the world.
 
-</div>
-
 - 🇧🇷 Born in Brazil
 - 🕒 Current timezone: Brasília Time (BRT)
 - 🐧 Linux enthusiast
 - 💻 Passionate about programming
 - 📖 Love anime, manga and books
+
+
+</div>
 
 ---
 
