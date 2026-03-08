@@ -21,21 +21,7 @@
 ## Interests
 
 <div align="center">
-  <a href="https://archlinux.org/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/arch-linux.png" alt="Arch Linux" width="50" height="50">
-  </a>
-  &nbsp;
-  <a href="https://openai.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=ai" alt="LLM / AI" width="50" height="50">
-  </a>
-  &nbsp;
-  <a href="https://linux.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="50" height="50">
-  </a>
-  &nbsp;
-  <a href="https://openclaw.ai/" target="_blank">
-    <img src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/main/assets/automation.svg" alt="Automation" width="50" height="50">
-  </a>
+  <img src="https://skillicons.dev/icons?i=arch,linux,ai&perline=3" />
 </div>
 
 ---
