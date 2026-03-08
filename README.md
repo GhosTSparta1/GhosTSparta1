@@ -77,8 +77,7 @@
 ## Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=basicallykairos&show_icons=true&theme=tokyonight"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=basicallykairos&layout=compact&langs_count=6&theme=tokyonight"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=basicallykairos&show_icons=true&theme=tokyonight"/>
 </div>
 
 ---
@@ -111,12 +110,12 @@
 ---
 
 <div align="center">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbasicallykairos&count_bg=%235865F2&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=visitors&edge_flat=false"/>
+  <a href="https://hits.seeyoufarm.com">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/basicallykairos&count_bg=%235865F2&title_bg=%2323272A&icon=github.svg&icon_color=%23FFFFFF&title=visitors&edge_flat=true"/>
+  </a>
 </div>
 
----
 
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
   <img alt="Animação da cobrinha" src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
