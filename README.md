@@ -33,7 +33,7 @@
     <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="50" height="50">
   </a>
   &nbsp;
-  <a href="https://en.wikipedia.org/wiki/Automation" target="_blank">
+  <a href="https://openclaw.ai/" target="_blank">
     <img src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/main/assets/automation.svg" alt="Automation" width="50" height="50">
   </a>
 </div>
@@ -109,13 +109,7 @@
 
 ---
 
-<div align="center">
-  <a href="https://hits.seeyoufarm.com">
-    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/basicallykairos&count_bg=%235865F2&title_bg=%2323272A&icon=github.svg&icon_color=%23FFFFFF&title=visitors&edge_flat=true"/>
-  </a>
-</div>
-
-
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
   <img alt="Animação da cobrinha" src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/output/github-snake.svg" />
