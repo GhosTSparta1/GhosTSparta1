@@ -11,7 +11,7 @@
 > I enjoy building things with code and exploring how software can automate the world
 
 - 🇧🇷 Born in Brazil
--  My current timezone: Brasília Time (BRT)
+- 🕒 Current timezone: Brasília Time (BRT)
 - 🐧 Linux enthusiast
 - 💻 Passionate about programming
 - 📖 Love anime, manga and books
