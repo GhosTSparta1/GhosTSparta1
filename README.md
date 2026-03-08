@@ -32,7 +32,7 @@
   </a>
   &nbsp;
   <a href="https://en.wikipedia.org/wiki/Automation" target="_blank">
-    <img src="https://www.svgrepo.com/show/140716/robotic-arm.svg" alt="Automation" width="50" height="50">
+    <img src="https://raw.githubusercontent.com/basicallykairos/basicallykairos/main/assets/automation.svg" alt="Automation" width="50" height="50">
   </a>
 </div>
 
