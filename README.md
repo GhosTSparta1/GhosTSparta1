@@ -54,13 +54,13 @@
 
 <div align="center">
   <a href="https://www.instagram.com/justadev__/" target="_blank" style="text-decoration:none">
-    <img src="https://skillicons.dev/icons?i=instagram&perline=1" width="40" height="40">
+    <img src="https://skillicons.dev/icons?i=instagram&perline=1">
   </a>
   <a href="https://discord.com/users/1291919614585995325" target="_blank" style="text-decoration:none">
-    <img src="https://skillicons.dev/icons?i=discord&perline=1" width="40" height="40">
+    <img src="https://skillicons.dev/icons?i=discord&perline=1">
   </a>
   <a href="mailto:guilher39982@gmail.com" target="_blank" style="text-decoration:none">
-    <img src="https://skillicons.dev/icons?i=gmail&perline=1" width="40" height="40">
+    <img src="https://skillicons.dev/icons?i=gmail&perline=1">
   </a>
 </div>
 
