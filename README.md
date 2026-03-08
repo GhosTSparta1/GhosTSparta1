@@ -17,7 +17,8 @@
 
 ## About Me
 
-> Exploring how software can automate the world.
+> Exploring how software can automate the world!
+> 
 
 - 🇧🇷 Born in Brazil
 - 🐧 Linux enthusiast
